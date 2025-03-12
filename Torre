@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    // mover a torre 5 casas para dereita
+    for (int i = 0; i < 5; i++) {
+        printf("para a direta\n"); //imprime linha reta do movimeto
+    }
+    return 0;
+}

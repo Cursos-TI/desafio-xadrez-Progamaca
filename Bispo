@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int i = 1;
+    // mover o bispo 5 casas diagonal superior a direita
+    do {
+        printf("diagonal superior a direta\n", i); //inprime a direção do movimento
+        i++;
+    }while (i <=5);
+    return 0;
+    }

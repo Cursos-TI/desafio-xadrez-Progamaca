@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int i = 8;  // posição inicial
+
+    // Mover a Rainha 8 casas para a esquerda
+    while (i > 0) {  // Mover ate a posição atingir 1
+        printf("para a esquerda\n");  // Imprime a direçães do movimento
+        i--;  // Move uma casa para a esquerda (decrementa i)
+    }
+
+    return 0;
+}
+
